@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\KolosShort",
+    "\\KolosShort\\KolosShort"
   ],
+  "SelectedNode": "\\KolosShort\\KolosShort\\KolosShort.cpp",
   "PreviewInSolutionExplorer": false
 }
