@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\KolosBMI",
+    "\\KolosBMI\\KolosBMI",
     "\\KolosShort",
     "\\KolosShort\\KolosShort"
   ],
-  "SelectedNode": "\\KolosShort\\KolosShort\\KolosShort.cpp",
+  "SelectedNode": "\\KolosBMI\\KolosBMI\\KolosBMI.cpp",
   "PreviewInSolutionExplorer": false
 }
