@@ -20,7 +20,7 @@ int main()
 	char znak = 42;
 	srand(time(NULL));
 
-	int l1 = rand() % (5 + 1);
+	int l1 = rand() % (6);
 	char obw;
 	char** tablica = new char* [y1];
 	for (int i = 0; i < y1; i++)
@@ -43,13 +43,11 @@ int main()
 		tablica[i] = new char[x1];
 		for (int j = 0; j < x1; j++)
 		{
-			l1 = rand() % (5 + 1);
+			l1 = rand() % (6);
 			tablica[i][j] = obw;
 			cout << tablica[i][j];
 		}
 	}
-	//z3
-	int* wskaznik1;
-	int* wskaznik2;
-	for
+	
+	
 }
