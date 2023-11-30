@@ -14,13 +14,10 @@ int main()
 	srand(time(0));
 	const size_t Rozmiar = 20;
 	double tablica[Rozmiar]{};
-	cout << "podaj ilość liczb(parzysta, naturalna): "; cin >> iloscliczb;
-	if ((iloscliczb % 2 == 0 && iloscliczb > 0))
-		pobieranie = false;
-	else
+	
 		do
 		{
-			cout << "Podaj poprawną liczbę! \n"; cin >> iloscliczb;
+			cout << "podaj ilość liczb(parzysta, naturalna): "; cin >> iloscliczb;
 			if (iloscliczb % 2 == 0 && iloscliczb > 0)
 				pobieranie = false;
 		} while (pobieranie == true);
@@ -95,9 +92,9 @@ int main()
 		for (size_t i = 0; i < Rozmiar; i++)
 			cout << tablica[i];
 
-		cout << endl << "Najmniejszy element: " << *wskazniki[0] << endl;
+		cout << endl << "Najmniejszy element: " << &wskazniki[0] << endl;
 		cout << "Mediana: " << *wskazniki[1] << endl;
 		cout << "Największy element: " << *wskazniki[2] << endl;
 
-
+		
 }

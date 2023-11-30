@@ -25,19 +25,24 @@ int main()
     const size_t kolumna = 6;
     const size_t wiersze = 5;
     int tablica[wiersze][kolumna] = {};
+    cout << endl;
     for (size_t j = 0; j < wiersze; j++)
     {
+        int sumaWiersza = 0;
         for (size_t i = 0; i < kolumna; i++)
         {
             tablica[j][i] = rand() % (a);
             cout << tablica[j][i] << ",";
+            sumaWiersza += tablica[j][i];
         }
-        cout << endl;
+        
+        cout << endl << "suma wiersza wynosi: " << sumaWiersza<<endl;
     }
     cout << "Podaj współrzędne punktów: \n";
     cout << "punkt pierwszy(x1,y1) "; cin >> x1 >> y1;
     cout << endl;
     cout << "punkt drugi(x2,y2) "; cin >> x2 >> y2;
+    cout << endl;
     int odleglosc = (char*)(&tablica[x1][y1]) - (char*)(&tablica[x2][y2]);
     if (odleglosc < 0)
         odleglosc = odleglosc * (-1);
