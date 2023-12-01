@@ -17,7 +17,7 @@ int main()
 	cout << scientific << "Notacja naukowa: \n";
 	cout << "Odległośc eukliedesowa wynosi: " << d << endl;
 	//z2
-	char znak = 42;
+
 	srand(time(NULL));
 
 	int l1 = rand() % (6);
@@ -48,6 +48,4 @@ int main()
 			cout << tablica[i][j];
 		}
 	}
-	
-	
 }
